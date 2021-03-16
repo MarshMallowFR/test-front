@@ -1,0 +1,42 @@
+* {
+  color: black;
+}
+
+.profile-card {
+  display: flex;
+  width: 40%;
+  max-height: 150px;
+  margin: 32px;
+  border: 1px solid #33ad73;
+  padding: 12px;
+}
+
+.users-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1,
+h2 {
+  font-size: 12px;
+}
+
+.profile-right {
+  font-size: 12px;
+  padding-left: 32px;
+  display: flex;
+}
+.profile-right ul {
+  margin: 0;
+  padding: 0;
+}
+.profile-right ul > li {
+  /* display: inline; */
+}
+
+.profile-address,
+.profile-company {
+  padding-left: 12px;
+  padding-right: 12px;
+  border-left: 1px solid #d5f3e5;
+}
